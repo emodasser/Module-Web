@@ -1,0 +1,28 @@
+img{
+      height: 100px;
+      width: 100px;
+      background: rgb(7 241 155 / 78%);
+      padding: 10px 100px 10px 10px;
+      border-radius: 10px;
+      border-style:groove;
+
+
+  }
+  
+  .statistique a{
+      text-decoration: none;
+      float: left;
+      padding: 10px 10px 0px 10px;
+  }
+
+  .statistique_valeur{
+      color: white;
+      font-family:Arial, Helvetica, sans-serif;
+      font-style: italic;
+      float: right;
+      font-size: 75px;
+      margin-top: -110px;
+      margin-left: 120px;
+      position: absolute;
+      
+  }

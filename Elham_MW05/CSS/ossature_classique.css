@@ -1,0 +1,34 @@
+/* Rendu des éléments HTML5 en bloc */
+body,header,footer,section,aside,nav {
+	display: block;              /* Non nécessaire, valeur par défaut */
+  border : 1px solid grey;   /* Une bordure pour 'voir' comment les blocs s'organisent */
+	margin: 0;                   /* Aucune marge extérieure */
+	padding: 0;                  /* Aucune marge intérieure */
+}
+
+header {
+  height: 80px;
+}
+
+section {
+  min-height: 400px;
+}
+
+aside {
+  float: right;
+  width: 20%;
+}
+
+footer {
+  clear: both;    /* permet de mettre le pied de page en dessous de la div section ou la div aside (en fonction de leur taille)*/
+  height: 60px;
+}
+
+
+/* Gestion du responsive */
+@media (max-width: 800px) {
+  aside, nav{
+	  display: none;
+  }
+}
+

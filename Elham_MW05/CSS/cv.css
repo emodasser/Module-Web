@@ -1,0 +1,39 @@
+body {
+    border: 10px solid #E0E0E0;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#photo_identite{
+
+    width: 75px;
+    border: 2px solid grey;
+    float: right;
+}
+
+.t1{
+    color: #6497b1;
+    text-align: center;
+}
+
+h1{    
+    
+    border: 1px dotted black;
+}
+
+.t2{
+
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+
+}
+
+table{
+    text-align: center;
+    background-color: rgb(151, 151, 151);
+}
+
+.police_grasse{
+    font-weight: bold;
+}
