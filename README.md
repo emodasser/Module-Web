@@ -1,2 +1,2 @@
 # Module-Web
-Module Web de 1ere année de BTS SNIR
+Module Web de BTS SNIR
