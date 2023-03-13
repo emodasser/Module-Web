@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>BTS SNIR - Dev WEB</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/formulaire.css">
+    </head>
+
+    <body id="body" data-theme="dark">
+        <h1>Inscrivez-vous !</h1>
+        <form id="form_inscription">
+            <label for="nom">Nom : </label>
+            <input type="text" id="nom" name="nom_utilisateur" required>
+            <label for="prenom">Prénom : </label> 
+            <input type="text" id="prenom" name="prenom_utilisateur" required>
+            <label for="pseudo">Pseudo : </label>
+            <input type="text" id="pseudo" name="pseudo_utilisateur" required>
+            <label for="mdp1">Mot de passe : </label>
+            <input type="password" id="mdp1" name="mdp1_utilisateur" required>
+            
+            <p>
+                <span class="rouge" id="mdp_longueur">8 caractères </span>avec au moins: 
+                <span class="rouge" id="mdp_majuscule">1 majuscule</span>
+                <span class="rouge" id="mdp_minuscule">1 minuscule</span>
+                <span class="rouge" id="mdp_chiffre">1 chiffre</span>
+                <span class="rouge" id="mdp_special">1 caractère spécial</span>.
+            
+            </p>
+            
+            <label for="mdp2">Ressaisir le mot de passe : </label>
+            <input type="password" id="mdp2" name="mdp2_utilisateur">
+            <button id="bouton_inscription" class="fond_bleu police_blanche" type="submit">M'inscrire !</button>
+        </form>
+        <!-- <button id="dark_light" type="button">Mode Sombre</button> -->
+
+        <script src="JS/formulaire.js"></script>
+
+    </body>
+</html>
